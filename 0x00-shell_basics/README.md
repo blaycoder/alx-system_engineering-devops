@@ -33,5 +33,29 @@ mv /tmp/betty /tmp/my_first_directory
 The above bash script move the file betty from /tmp/ to /tmp/my_first_directory
 
 #!/bin/bash
-rm /tmp/my_first_directory
+rm -r /tmp/my_first_directory/betty
 The above bash script delete the file betty
+
+#!/bin/bash
+rm -r /tmp/my_first_directory
+The above bash script delete the directory - my_first_directory
+
+#!/bin/bash
+cd -
+The above bash script changes the working directory to the previous one
+
+#!/bin/bash
+ls -al. ../boot
+The above bash script list all hidden files in current directory and parent directory and the /boot directory
+
+#!/bin/bash
+file/tmp/iamafile
+The above bash script print the file in the /tmp directory
+
+#!/bin/bash
+ln -s /bin/ls--ls--
+The above bash script create a symbolic link to /bin/ls
+
+#!/bin/bash
+cp *.html ..
+The above bash script copy all the HTML files in current working directory to the parent working directory
