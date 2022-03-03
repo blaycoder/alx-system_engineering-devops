@@ -9,5 +9,5 @@ ls
 The above bash script prints out the contents list of the current directory
 
 #!/bin/bash
-cd ../
+cd
 The above bash script changes the working directory to the home directory
