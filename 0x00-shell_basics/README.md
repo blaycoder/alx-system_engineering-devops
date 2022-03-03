@@ -15,3 +15,7 @@ The above bash script changes the working directory to the home directory
 #!/bin/bash
 ls -l
 The above bash script print out directory content in long format
+
+#!/bin/bash
+ls -al
+The above bash script print out hidden files
