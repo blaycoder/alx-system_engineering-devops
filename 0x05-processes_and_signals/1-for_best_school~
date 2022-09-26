@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-# a Bash script that displays Best School 10 times.
-Num=10
-for i in $Num; do
-    echo "Best School";
-    ((i++))
-done
