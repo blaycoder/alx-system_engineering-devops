@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# a Bash script that gives you information about the school file.
+
+FILE=$(ls)
+for FILE in $FILES;
+do
+    if [ "$FILE" == "school" ]
+    then
+	echo "good"
+    else
+	echo "bad"
+    fi
+done
